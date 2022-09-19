@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(30, 81, 116);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+        height: 23rem;
+        position: relative;
+        margin: 0;
+        background: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%); 
+        width: 320px;
+        padding: 10px;
+        border: 1px solid gray;
+        margin: 0;
+        font-size: 15px;
+        border-radius: 60px;
+        box-shadow: 10px 12px 12px ;
+}
+
+
+.london {
+    float: left;
+}
+.time {
+    float: right;
+    padding-right: 20px;
+}
+.mid-section {
+    text-align: center;
+}
+
+.temp {
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+.temp p {
+    margin-bottom: 0px;
+}
+
+.condition {
+    font-size: 10px;
+}
+
+
+.image {
+    width: 130px;
+    height: 130px;
+    float: right;
+    padding-right: 20px;
+    
+}
